@@ -2,7 +2,7 @@ package com.neuedu.July20;
 
 public class Test {
     public static void main(String[] args) {
-        System.out.println(num(10));
+        System.out.println(num(12));
     }
 
     static int num(int a) {
