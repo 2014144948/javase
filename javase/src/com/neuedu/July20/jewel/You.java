@@ -4,28 +4,41 @@ package com.neuedu.July20.jewel;
  * 人
  */
 public class You {
-//    楼层
+    //    楼层
     int floor;
-//    想要的质量
+    //    想要的
     int wanted;
     Floor f;
     Jewel j;
 
-    public You(){
+    public You() {
         this.floor = 1;
         this.wanted = 1;
     }
 
+    /**
+     * 检查的方法
+     * @param i      当前楼层
+     * @param carats 质量
+     * @param name   名字
+     * @param amount 总楼层
+     */
+    void checkJewel(int i, int carats, String name, int amount) {
+        if (i <= amount / 2 && carats > wanted) {
+            wanted = carats;
+            System.out.println(wanted);
+        } else if (i > amount / 2) {
+            getJewel(i,carats,name);
+        }
+    }
 
     /**
-     * 拿
+     * 拿的方法
+     * @param i
+     * @param carats
+     * @param name
      */
-      void getJewel(Floor f, Jewel j, Jewel num){
-          if(j.carats >= wanted){
-              int a = wanted;
-              wanted = j.carats;
-              j.carats = a;
-              System.out.println("获得第"+f.amount+"层的"+j.carats+"克拉"+j.name+"。");
-          }
+    void getJewel(int i, int carats, String name) {
+        System.out.println("获得第" + i + "层的" + carats + "克拉" + name + "。");
     }
 }
