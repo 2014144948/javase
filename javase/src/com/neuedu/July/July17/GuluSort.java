@@ -1,4 +1,4 @@
-package com.neuedu.July17;
+package com.neuedu.July.July17;
 
 public class GuluSort {
     public static void main(String[] args){

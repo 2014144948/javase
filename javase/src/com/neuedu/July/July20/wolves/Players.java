@@ -1,4 +1,4 @@
-package com.neuedu.July20.wolves;
+package com.neuedu.July.July20.wolves;
 
 public class Players {
     //    名称

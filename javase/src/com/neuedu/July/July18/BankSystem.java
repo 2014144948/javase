@@ -1,4 +1,4 @@
-package com.neuedu.July18;
+package com.neuedu.July.July18;
 
 import java.util.Scanner;
 

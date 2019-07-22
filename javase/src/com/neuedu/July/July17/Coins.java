@@ -1,4 +1,4 @@
-package com.neuedu.July17;
+package com.neuedu.July.July17;
 
 public class Coins {
     public static void main(String[] args) {

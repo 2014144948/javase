@@ -1,4 +1,4 @@
-package com.neuedu.July18;
+package com.neuedu.July.July18;
 
 public class SelectSort {
     public static void main(String[] args) {

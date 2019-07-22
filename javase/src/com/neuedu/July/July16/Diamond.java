@@ -1,4 +1,4 @@
-package com.neuedu.July16;
+package com.neuedu.July.July16;
 
 public class Diamond {
     public static void main(String[] args) {

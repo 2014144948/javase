@@ -1,4 +1,4 @@
-package com.neuedu.July19;
+package com.neuedu.July.July19;
 
 import java.util.Scanner;
 
@@ -16,21 +16,17 @@ public class Recursion {
     }
 
     /**
-     * 计算整数从min到max的累加和
+     * 用递归计算整数从min到max的累加和
      *
      * @param min 计算的初始值
      * @param max 计算的终止值
-     * @return 返回一个整数
+     * @return 返回一个整数结果
      */
     static int sum(int min, int max) {
-        int sum = 0;
-        if (min <= max) {
-            for (int i = max; i >= min; i--) {
-                sum += i;
-            }
-            return sum;
+        if (max >= min) {
+            return max + sum(min, max - 1);
         } else {
-            return -1;
+            return 0;
         }
     }
 }

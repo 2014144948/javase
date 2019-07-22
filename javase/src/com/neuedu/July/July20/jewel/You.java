@@ -1,4 +1,4 @@
-package com.neuedu.July20.jewel;
+package com.neuedu.July.July20.jewel;
 
 /**
  * 人
@@ -8,8 +8,6 @@ public class You {
     int floor;
     //    想要的
     int wanted;
-    Floor f;
-    Jewel j;
 
     public You() {
         this.floor = 1;
