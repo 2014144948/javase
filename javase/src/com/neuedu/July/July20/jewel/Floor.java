@@ -5,7 +5,7 @@ package com.neuedu.July.July20.jewel;
  */
 public class Floor {
 //    总楼层
-     int amount;
+     public int amount;
     public Floor(){
         this.amount = 10;
     }
