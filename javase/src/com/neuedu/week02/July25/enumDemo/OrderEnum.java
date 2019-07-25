@@ -1,6 +1,6 @@
 package com.neuedu.week02.July25.enumDemo;
 
-public enum OrderEnum {
+public enum OrderEnum implements TestInterface{
     START_PAY(0,"交易开始"),
     NO_PAY(1,"未支付"),
     YES_PAY(2,"已支付"),
@@ -23,13 +23,15 @@ public enum OrderEnum {
         return inform;
     }
 
-    public static OrderEnum getorderEnum(Integer code){
+
+    @Override
+    public OrderEnum getOrderEnum(Integer code) {
         OrderEnum[] orderEnums = OrderEnum.values();
         for (OrderEnum orderEnum : orderEnums) {
             if(orderEnum.code.equals(code)){
                 return orderEnum;
             }
         }
-        return  null;
+        return null;
     }
 }
