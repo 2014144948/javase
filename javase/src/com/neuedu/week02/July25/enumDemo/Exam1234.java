@@ -2,6 +2,7 @@ package com.neuedu.week02.July25.enumDemo;
 
 public class Exam1234 {
     public static void main(String[] args) {
+        long start = System.currentTimeMillis();
         int count = 0;
         for (int i = 123; i <= 432; i++) {
             int bai = i / 100;
@@ -16,5 +17,7 @@ public class Exam1234 {
             }
         }
         System.out.println(count + "个");
+        long end = System.currentTimeMillis();
+        System.out.println(end - start);
     }
 }
