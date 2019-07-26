@@ -11,8 +11,4 @@ public class Order {
     public Integer getOrderStatus(){
         return orderStatus;
     }
-
-    public void setOrderStatus(Integer orderStatus){
-        this.orderStatus = orderStatus;
-    }
 }

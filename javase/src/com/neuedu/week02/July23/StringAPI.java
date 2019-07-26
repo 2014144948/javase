@@ -1,4 +1,4 @@
-package com.neuedu.week02.July23.API;
+package com.neuedu.week02.July23;
 
 public class StringAPI {
     public static void main(String[] args){
